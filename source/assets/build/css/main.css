@@ -5,17 +5,19 @@
 }
 
 ::-moz-selection {
-  background: #B9FFE1;
+  background: #FFF07C;
 }
 
 ::selection {
-  background: #B9FFE1;
+  background: #FFF07C;
 }
 
 body {
   border: 0;
-  font-family: helvetica, sans-serif;
-  font-size: 17px;
+  color: #3E3E3E;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 23px;
+  font-weight: 200;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -39,25 +41,58 @@ input, button, textarea, select {
   font: inherit;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: helvetica, sans-serif;
-  margin: 0 0 1rem 0;
+h1, h2 {
+  margin: 0;
 }
 
 h1 {
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 8.6666666667rem;
   line-height: 1.14;
 }
 
 h2 {
+  font-family: "Lucida Console", Monaco, monospace;
   font-size: 1.6666666667rem;
   line-height: 1.04;
+  margin-bottom: 1.4666666667rem;
 }
 
 p, ul {
   line-height: 1.33;
+  letter-spacing: -0.5px;
 }
 
-.test {
-  color: #B9FFE1;
+.home {
+  margin: 0 auto;
+  max-width: 530px;
+  padding-top: 16vw;
+}
+
+.title {
+  font-style: italic;
+  letter-spacing: -7px;
+  margin-bottom: 3rem;
+}
+
+.title__icon {
+  display: inline-block;
+  font-style: normal;
+  transform: scaleX(-1);
+}
+
+.highlight {
+  position: relative;
+}
+.highlight:before {
+  background: #FFF07C;
+  border-radius: 2px;
+  bottom: -4px;
+  content: "";
+  left: -4px;
+  position: absolute;
+  right: -3px;
+  top: -2px;
+  transform: rotate(-1deg);
+  z-index: -1;
 }

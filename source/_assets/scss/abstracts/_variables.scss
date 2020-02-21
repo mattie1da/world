@@ -1,27 +1,28 @@
 // VARIABLES
 
 // colours
-$black: #535353;
+$black: #3E3E3E;
 $navy: #025795;
-$mint: #B9FFE1;
+$yellow: #FFF07C;
 $white: #FFFFFF;
 
 $dark: $black;
-$theme: $mint;
+$theme: $yellow;
 $light: $white;
 
 
 // fonts
-$fontHelvetica: helvetica, sans-serif;
-$fontConsole: lucida-console, sans-serif;
+$fontHelvetica: "Helvetica", Arial, sans-serif;
+$fontConsole: "Lucida Console", Monaco, monospace;
 
 $fontPrimary: $fontHelvetica;
 $fontSecondary: $fontConsole;
 
 $baseFontFamily: $fontPrimary;
 $baseFontColor: $dark;
+$baseFontWeight: 200;
 
-$baseFontSize: 17px;
+$baseFontSize: 23px;
 $desktopFontSize: 16px;
 $tabletFontSize: 15px;
 $phoneFontSize: 14px;
@@ -33,5 +34,5 @@ $browserContext: 15;
 
 // z-index map
 $z-index: (
-
+   highlight: -1,
 )

@@ -1,0 +1,16 @@
+.highlight {
+   position: relative;
+
+   &:before {
+      background: $theme;
+      border-radius: 2px;
+      bottom: -4px;
+      content: '';
+      left: -4px;
+      position: absolute;
+      right: -3px;
+      top: -2px;
+      transform: rotate(-1deg);
+      z-index: map_get($z-index, highlight);
+   }
+}

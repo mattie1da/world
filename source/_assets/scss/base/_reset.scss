@@ -10,8 +10,10 @@
 
 body {
 	border: 0;
+	color: $baseFontColor;
 	font-family: $baseFontFamily;
 	font-size: $baseFontSize;
+	font-weight: $baseFontWeight;
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
@@ -35,21 +37,24 @@ input, button, textarea, select {
 	font: inherit;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: $fontPrimary;
-	margin: 0 0 rem(15) 0;
+h1, h2 {
+	margin: 0;
 }
 
 h1 {
+	font-family: $fontPrimary;
 	font-size: rem(130);
 	line-height: 1.14;
 }
 
 h2 {
+	font-family: $fontSecondary;
 	font-size: rem(25);
 	line-height: 1.04;
+	margin-bottom: rem(22);
 }
 
 p, ul {
 	line-height: 1.33;
+	letter-spacing: -0.5px;
 }
