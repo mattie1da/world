@@ -1,0 +1,37 @@
+// VARIABLES
+
+// colours
+$black: #535353;
+$navy: #025795;
+$mint: #B9FFE1;
+$white: #FFFFFF;
+
+$dark: $black;
+$theme: $mint;
+$light: $white;
+
+
+// fonts
+$fontHelvetica: helvetica, sans-serif;
+$fontConsole: lucida-console, sans-serif;
+
+$fontPrimary: $fontHelvetica;
+$fontSecondary: $fontConsole;
+
+$baseFontFamily: $fontPrimary;
+$baseFontColor: $dark;
+
+$baseFontSize: 17px;
+$desktopFontSize: 16px;
+$tabletFontSize: 15px;
+$phoneFontSize: 14px;
+
+
+// misc
+$browserContext: 15;
+
+
+// z-index map
+$z-index: (
+
+)

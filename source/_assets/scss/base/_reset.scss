@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+::selection {
+	background: $theme;
+}
+
+body {
+	border: 0;
+	font-family: $baseFontFamily;
+	font-size: $baseFontSize;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+input, button, textarea, select {
+	font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $fontPrimary;
+	margin: 0 0 rem(15) 0;
+}
+
+h1 {
+	font-size: rem(130);
+	line-height: 1.14;
+}
+
+h2 {
+	font-size: rem(25);
+	line-height: 1.04;
+}
+
+p, ul {
+	line-height: 1.33;
+}
