@@ -1,0 +1,5 @@
+.divider {
+   @include size(100%, 8px);
+   background: url('/images/decor/wave.svg') center center repeat-x;
+   background-size: contain;
+}

@@ -69,6 +69,13 @@ p, ul {
   padding-top: 16vw;
 }
 
+.divider {
+  height: 8px;
+  width: 100%;
+  background: url("/images/decor/wave.svg") center center repeat-x;
+  background-size: contain;
+}
+
 .title {
   font-style: italic;
   letter-spacing: -7px;

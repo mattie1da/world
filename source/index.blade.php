@@ -13,6 +13,10 @@
             my animal crossing town, i would.
         </p>
 
+        <aside class="divider"></aside>
+
+        
+
     </section>
 
 @endsection
