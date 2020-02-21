@@ -1,0 +1,16 @@
+.link {
+   border-bottom: 1px dashed $navy;
+   font-weight: bold;
+   padding-bottom: 3px;
+
+   &--code {
+      font-family: $fontSecondary;
+      font-weight: 200;
+   }
+
+   .socials & {
+      border-bottom: none;
+      margin-left: rem(6);
+      padding: 0;
+   }
+}

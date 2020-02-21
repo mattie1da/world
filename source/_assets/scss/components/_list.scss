@@ -1,0 +1,27 @@
+.list {
+   list-style: none;
+   margin-bottom: rem(45);
+   padding-left: 0;
+}
+
+.list__title {
+   color: $darkGrey;
+   font-weight: 200;
+   margin-bottom: rem(22);
+}
+
+.list__item {
+   margin-bottom: rem(15);
+   position: relative;
+
+   &:before {
+      @include size(6px);
+      background: $theme;
+      border-radius: 2px;
+      content: '';
+      left: -14px;
+      position: absolute;
+      top: 14px;
+      transform: rotate(-2deg);
+   }
+}
