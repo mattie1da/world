@@ -2,7 +2,7 @@
 
 @section('body')
 
-    <section class="home home--yellow">
+    <section class="home">
         <div class="container">
 
             <h1 class="title">
@@ -80,17 +80,13 @@
 
         <aside class="palette">
             <div class="themes">
-                <a href="todo" class="theme theme--one"></a>
-                <a href="todo" class="theme theme--two"></a>
-                <a href="todo" class="theme theme--three"></a>
-                <a href="todo" class="theme theme--four"></a>
-                <a href="todo" class="theme theme--five"></a>
-                <a href="todo" class="theme theme--six"></a>
-            </div>
+                <a href="javascript:void(0);" data-id="yellow" class="theme theme--yellow active"></a>
+                <a href="javascript:void(0);" data-id="pink" class="theme theme--pink"></a>
+                <a href="javascript:void(0);" data-id="red" class="theme theme--red"></a>
+                <a href="javascript:void(0);" data-id="mint" class="theme theme--mint"></a>
 
-            <div class="modes">
-                <a href="todo" class="mode mode--dark"></a>
-                <a href="todo" class="mode mode--light"></a>
+                <a href="javascript:void(0);" data-id="dark" class="mode mode--dark"></a>
+                <a href="javascript:void(0);" data-id="light" class="mode mode--light"></a>
             </div>
         </aside>
 

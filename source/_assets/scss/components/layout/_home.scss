@@ -4,9 +4,14 @@
    mix-blend-mode: difference;
 
    &--dark {
-      background: var(--black);
+      background: url('/images/dark.png') right center no-repeat;
+      background-size: cover;
       color: var(--white);
-      z-index: map_get($z-index, background);
+   }
+
+   &--light {
+      background: var(--white);
+      color: var(--black);
    }
 
    &--mint {

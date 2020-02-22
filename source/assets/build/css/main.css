@@ -4,12 +4,12 @@
   --grey: #EBEBEB;
   --navy: #025795;
   --white: #FFFFFF;
-  --lime: #B9FFD1;
   --pink: #f7abf9;
   --red: #FFB9B9;
   --mint: #B9FFE1;
   --yellow: #FFF07C;
   --theme: var(--yellow);
+  --theme-transition: all 0.5s ease-in-out;
 }
 
 *,
@@ -83,9 +83,13 @@ p, ul {
   mix-blend-mode: difference;
 }
 .home--dark {
-  background: var(--black);
+  background: url("/images/dark.png") right center no-repeat;
+  background-size: cover;
   color: var(--white);
-  z-index: -1;
+}
+.home--light {
+  background: var(--white);
+  color: var(--black);
 }
 .home--mint {
   --theme: var(--mint);
@@ -155,7 +159,11 @@ p, ul {
   right: -3px;
   top: -2px;
   transform: rotate(-1deg);
+  transition: var(--theme-transition);
   z-index: -1;
+}
+.home--dark .highlight {
+  color: var(--black);
 }
 
 .list {
@@ -218,6 +226,7 @@ p, ul {
 }
 .blob path {
   fill: var(--theme);
+  transition: var(--theme-transition);
 }
 .blob--top {
   left: 50%;
@@ -243,35 +252,29 @@ p, ul {
   border-radius: 50%;
   display: block;
 }
-.theme--one {
+.theme--yellow {
   background: var(--yellow);
 }
-.theme--two {
+.theme--mint {
   background: var(--mint);
 }
-.theme--three {
+.theme--pink {
   background: var(--pink);
 }
-.theme--four {
+.theme--red {
   background: var(--red);
 }
-.theme--five {
-  background: var(--lime);
+.theme.active {
+  border: 1px solid var(--darkGrey);
 }
-.theme--six {
-  background: var(--yellow);
+.home--dark .theme.active {
+  border: 1px solid var(--white);
 }
 
 .palette {
   left: 15%;
   position: fixed;
   top: 40%;
-}
-
-.modes {
-  display: grid;
-  grid-gap: 0.5333333333rem;
-  grid-template-columns: repeat(2, 1fr);
 }
 
 .mode {

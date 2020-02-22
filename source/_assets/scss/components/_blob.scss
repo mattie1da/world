@@ -4,6 +4,7 @@
 
    path {
       fill: var(--theme);
+      transition: var(--theme-transition);
    }
 
    &--top {

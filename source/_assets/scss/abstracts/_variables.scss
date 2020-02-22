@@ -7,12 +7,14 @@
   --navy: #025795;
   --white: #FFFFFF;
 
-  --lime: #B9FFD1;
   --pink: #f7abf9;
   --red: #FFB9B9;
   --mint: #B9FFE1;
   --yellow: #FFF07C;
+
   --theme: var(--yellow);
+
+  --theme-transition: all 0.5s ease-in-out;
 }
 
 // colours
@@ -48,5 +50,4 @@ $browserContext: 15;
 $z-index: (
    highlight: -1,
    blob: -1,
-   background: -1,
 )

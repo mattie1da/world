@@ -10,27 +10,27 @@
    border-radius: 50%;
    display: block;
 
-   &--one {
+   &--yellow {
       background: var(--yellow);
    }
 
-   &--two {
+   &--mint {
       background: var(--mint);
    }
 
-   &--three {
+   &--pink {
       background: var(--pink);
    }
 
-   &--four {
+   &--red {
       background: var(--red);
    }
 
-   &--five {
-      background: var(--lime);
-   }
+   &.active {
+      border: 1px solid var(--darkGrey);
 
-   &--six {
-      background: var(--yellow);
+      .home--dark & {
+         border: 1px solid var(--white);
+      }
    }
 }

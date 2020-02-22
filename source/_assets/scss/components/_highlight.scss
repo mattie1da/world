@@ -11,6 +11,11 @@
       right: -3px;
       top: -2px;
       transform: rotate(-1deg);
+      transition: var(--theme-transition);
       z-index: map_get($z-index, highlight);
+   }
+
+   .home--dark & {
+      color: var(--black);
    }
 }
