@@ -1,3 +1,17 @@
+:root {
+  --black: #323232;
+  --darkGrey: #535353;
+  --grey: #EBEBEB;
+  --navy: #025795;
+  --white: #FFFFFF;
+  --lime: #B9FFD1;
+  --pink: #f7abf9;
+  --red: #FFB9B9;
+  --mint: #B9FFE1;
+  --yellow: #FFF07C;
+  --theme: var(--yellow);
+}
+
 *,
 *::before,
 *::after {
@@ -5,16 +19,16 @@
 }
 
 ::-moz-selection {
-  background: #FFF07C;
+  background: var(--theme);
 }
 
 ::selection {
-  background: #FFF07C;
+  background: var(--theme);
 }
 
 body {
   border: 0;
-  color: #3E3E3E;
+  color: var(--black);
   font-family: "Helvetica", Arial, sans-serif;
   font-size: 23px;
   font-weight: 200;
@@ -66,6 +80,27 @@ p, ul {
 .home {
   position: relative;
   overflow: hidden;
+  mix-blend-mode: difference;
+}
+.home--dark {
+  background: var(--black);
+  color: var(--white);
+  z-index: -1;
+}
+.home--mint {
+  --theme: var(--mint);
+}
+.home--yellow {
+  --theme: var(--yellow);
+}
+.home--lime {
+  --theme: var(--lime);
+}
+.home--pink {
+  --theme: var(--pink);
+}
+.home--red {
+  --theme: var(--red);
 }
 
 .divider {
@@ -111,7 +146,7 @@ p, ul {
   position: relative;
 }
 .highlight:before {
-  background: #FFF07C;
+  background: var(--theme);
   border-radius: 2px;
   bottom: -4px;
   content: "";
@@ -130,7 +165,7 @@ p, ul {
 }
 
 .list__title {
-  color: #535353;
+  color: var(--darkGrey);
   font-weight: 200;
   margin-bottom: 1.4666666667rem;
 }
@@ -142,7 +177,7 @@ p, ul {
 .list__item:before {
   height: 6px;
   width: 6px;
-  background: #FFF07C;
+  background: var(--theme);
   border-radius: 2px;
   content: "";
   left: -14px;
@@ -167,7 +202,7 @@ p, ul {
 }
 
 .selfie {
-  border: 1px solid #FFF07C;
+  border: 1px solid var(--theme);
   border-radius: 50%;
   margin-left: auto;
   margin-top: -160px;
@@ -182,7 +217,7 @@ p, ul {
   z-index: -1;
 }
 .blob path {
-  fill: #FFF07C;
+  fill: var(--theme);
 }
 .blob--top {
   left: 50%;
@@ -193,12 +228,6 @@ p, ul {
   bottom: 0;
   right: 0;
   transform: scale(1.5) translateY(30%);
-}
-
-.palette {
-  left: 15%;
-  position: fixed;
-  top: 40%;
 }
 
 .themes {
@@ -215,20 +244,30 @@ p, ul {
   display: block;
 }
 .theme--one {
-  background: #FFF07C;
+  background: var(--yellow);
 }
 .theme--two {
-  background: #B9FFE1;
+  background: var(--mint);
 }
 .theme--three {
-  background: #f7abf9;
+  background: var(--pink);
 }
 .theme--four {
-  background: #FFB9B9;
+  background: var(--red);
 }
 .theme--five {
-  background: #B9FFD1;
+  background: var(--lime);
 }
+.theme--six {
+  background: var(--yellow);
+}
+
+.palette {
+  left: 15%;
+  position: fixed;
+  top: 40%;
+}
+
 .modes {
   display: grid;
   grid-gap: 0.5333333333rem;

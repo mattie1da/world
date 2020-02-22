@@ -1,23 +1,26 @@
 // VARIABLES
 
+:root {
+  --black: #323232;
+  --darkGrey: #535353;
+  --grey : #EBEBEB;
+  --navy: #025795;
+  --white: #FFFFFF;
+
+  --lime: #B9FFD1;
+  --pink: #f7abf9;
+  --red: #FFB9B9;
+  --mint: #B9FFE1;
+  --yellow: #FFF07C;
+  --theme: var(--yellow);
+}
+
 // colours
-$black: #3E3E3E;
+$black: #323232;
 $darkGrey: #535353;
 $navy: #025795;
 $grey: #EBEBEB;
 $white: #FFFFFF;
-
-
-// theme colours
-$yellow: #FFF07C;
-$mint: #B9FFE1;
-$pink: #f7abf9;
-$red: #FFB9B9;
-$lime: #B9FFD1;
-
-$dark: $black;
-$theme: $yellow;
-$light: $white;
 
 
 // fonts
@@ -28,7 +31,7 @@ $fontPrimary: $fontHelvetica;
 $fontSecondary: $fontConsole;
 
 $baseFontFamily: $fontPrimary;
-$baseFontColor: $dark;
+$baseFontColor: var(--black);
 $baseFontWeight: 200;
 
 $baseFontSize: 23px;
@@ -44,5 +47,6 @@ $browserContext: 15;
 // z-index map
 $z-index: (
    highlight: -1,
-   blob: -1
+   blob: -1,
+   background: -1,
 )

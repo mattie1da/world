@@ -5,7 +5,7 @@
 }
 
 .list__title {
-   color: $darkGrey;
+   color: var(--darkGrey);
    font-weight: 200;
    margin-bottom: rem(22);
 }
@@ -16,7 +16,7 @@
 
    &:before {
       @include size(6px);
-      background: $theme;
+      background: var(--theme);
       border-radius: 2px;
       content: '';
       left: -14px;

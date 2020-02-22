@@ -1,4 +1,31 @@
 .home {
    position: relative;
    overflow: hidden;
+   mix-blend-mode: difference;
+
+   &--dark {
+      background: var(--black);
+      color: var(--white);
+      z-index: map_get($z-index, background);
+   }
+
+   &--mint {
+      --theme: var(--mint);
+   }
+
+   &--yellow {
+      --theme: var(--yellow);
+   }
+
+   &--lime {
+      --theme: var(--lime);
+   }
+
+   &--pink {
+      --theme: var(--pink);
+   }
+
+   &--red {
+      --theme: var(--red);
+   }
 }

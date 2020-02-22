@@ -2,7 +2,7 @@
 
 @section('body')
 
-    <section class="home">
+    <section class="home home--yellow">
         <div class="container">
 
             <h1 class="title">
@@ -85,6 +85,7 @@
                 <a href="todo" class="theme theme--three"></a>
                 <a href="todo" class="theme theme--four"></a>
                 <a href="todo" class="theme theme--five"></a>
+                <a href="todo" class="theme theme--six"></a>
             </div>
 
             <div class="modes">

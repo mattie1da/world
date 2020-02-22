@@ -2,7 +2,7 @@
    position: relative;
 
    &:before {
-      background: $theme;
+      background: var(--theme);
       border-radius: 2px;
       bottom: -4px;
       content: '';

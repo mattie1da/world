@@ -1,0 +1,19 @@
+.modes {
+  display: grid;
+  grid-gap: rem(8);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.mode {
+  @include size(18px);
+  background: center center no-repeat;
+  background-size: contain;
+
+  &--light {
+    background-image: url('/images/icons/mode-light.svg');
+  }
+
+  &--dark {
+    background-image: url('/images/icons/mode-dark.svg');
+  }
+}

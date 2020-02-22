@@ -3,7 +3,7 @@
    z-index: map_get($z-index, blob);
 
    path {
-      fill: $theme;
+      fill: var(--theme);
    }
 
    &--top {
