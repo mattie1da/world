@@ -1,7 +1,4 @@
 .selfie {
-   @include size(305px);
-   background: url('/images/selfie-alert.jpg') center center no-repeat;
-   background-size: cover;
    border: 1px solid $theme;
    border-radius: 50%;
    margin-left: auto;

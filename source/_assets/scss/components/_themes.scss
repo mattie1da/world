@@ -1,0 +1,64 @@
+.palette {
+   left: 15%;
+   position: fixed;
+   top: 40%;
+}
+
+.themes {
+   display: grid;
+   grid-gap: rem(8);
+   grid-template-columns: repeat(2, 1fr);
+   margin-bottom: rem(15);
+}
+
+.theme {
+   @include size(18px);
+   border-radius: 50%;
+   display: block;
+
+   &--one {
+      background: $yellow;
+   }
+
+   &--two {
+      background: $mint;
+   }
+
+   &--three {
+      background: $pink;
+   }
+
+   &--four {
+      background: $red;
+   }
+
+   &--five {
+      background: $lime;
+   }
+
+   &--six {
+
+   }
+}
+
+
+// put in own guy
+.modes {
+   display: grid;
+   grid-gap: rem(8);
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.mode {
+   @include size(18px);
+   background: center center no-repeat;
+   background-size: contain;
+
+   &--light {
+      background-image: url('/images/icons/mode-light.svg');
+   }
+
+   &--dark {
+      background-image: url('/images/icons/mode-dark.svg');
+   }
+}

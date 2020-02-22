@@ -64,9 +64,8 @@ p, ul {
 }
 
 .home {
-  margin: 0 auto;
-  max-width: 540px;
-  padding-top: 12vw;
+  position: relative;
+  overflow: hidden;
 }
 
 .divider {
@@ -87,6 +86,12 @@ p, ul {
   justify-content: flex-end;
   margin-top: 8.6666666667rem;
   padding-bottom: 4.3333333333rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 540px;
+  padding-top: 12vw;
 }
 
 .title {
@@ -162,10 +167,6 @@ p, ul {
 }
 
 .selfie {
-  height: 305px;
-  width: 305px;
-  background: url("/images/selfie-alert.jpg") center center no-repeat;
-  background-size: cover;
   border: 1px solid #FFF07C;
   border-radius: 50%;
   margin-left: auto;
@@ -174,4 +175,75 @@ p, ul {
 
 .socials {
   margin-left: 3rem;
+}
+
+.blob {
+  position: absolute;
+  z-index: -1;
+}
+.blob path {
+  fill: #FFF07C;
+}
+.blob--top {
+  left: 50%;
+  top: -50px;
+  transform: translateX(-50%) translateY(-60%);
+}
+.blob--bottom {
+  bottom: 0;
+  right: 0;
+  transform: scale(1.5) translateY(30%);
+}
+
+.palette {
+  left: 15%;
+  position: fixed;
+  top: 40%;
+}
+
+.themes {
+  display: grid;
+  grid-gap: 0.5333333333rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1rem;
+}
+
+.theme {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  display: block;
+}
+.theme--one {
+  background: #FFF07C;
+}
+.theme--two {
+  background: #B9FFE1;
+}
+.theme--three {
+  background: #f7abf9;
+}
+.theme--four {
+  background: #FFB9B9;
+}
+.theme--five {
+  background: #B9FFD1;
+}
+.modes {
+  display: grid;
+  grid-gap: 0.5333333333rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.mode {
+  height: 18px;
+  width: 18px;
+  background: center center no-repeat;
+  background-size: contain;
+}
+.mode--light {
+  background-image: url("/images/icons/mode-light.svg");
+}
+.mode--dark {
+  background-image: url("/images/icons/mode-dark.svg");
 }

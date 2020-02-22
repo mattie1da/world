@@ -4,9 +4,16 @@
 $black: #3E3E3E;
 $darkGrey: #535353;
 $navy: #025795;
-$yellow: #FFF07C;
 $grey: #EBEBEB;
 $white: #FFFFFF;
+
+
+// theme colours
+$yellow: #FFF07C;
+$mint: #B9FFE1;
+$pink: #f7abf9;
+$red: #FFB9B9;
+$lime: #B9FFD1;
 
 $dark: $black;
 $theme: $yellow;
@@ -37,4 +44,5 @@ $browserContext: 15;
 // z-index map
 $z-index: (
    highlight: -1,
+   blob: -1
 )
