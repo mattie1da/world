@@ -164,7 +164,7 @@ p, ul {
 .selfie {
   height: 305px;
   width: 305px;
-  background: url("/images/sponsor-me-tape.gif") center center no-repeat, url("/images/selfie-alert.jpg") center center no-repeat;
+  background: url("/images/selfie-alert.jpg") center center no-repeat;
   background-size: cover;
   border: 1px solid #FFF07C;
   border-radius: 50%;
