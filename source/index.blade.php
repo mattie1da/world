@@ -64,7 +64,7 @@
             >
 
             <p>
-                <span class="highlight">let's chat,</span> send me an <a href="mailto:" title="or hate mail lol" class="link" target="_blank">email.</a>
+                <span class="highlight">let's chat,</span> send me an <a href="mailto:hello@mattie.world" title="or hate mail lol" class="link" target="_blank">email.</a>
             </p>
 
             <footer class="footer">

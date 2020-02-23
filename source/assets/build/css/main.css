@@ -83,7 +83,6 @@ h2 {
 }
 
 p, ul {
-  line-height: 1.33;
   letter-spacing: -0.5px;
 }
 @media (max-width: 900px) {
@@ -147,10 +146,12 @@ p, ul {
   font-size: 14px;
   justify-content: flex-end;
   margin-top: 8.6666666667rem;
-  mix-blend-mode: difference;
   padding-bottom: 4.3333333333rem;
   position: relative;
   z-index: 10;
+}
+.home--dark .footer {
+  mix-blend-mode: difference;
 }
 @media (max-width: 900px) {
   .footer {
@@ -246,7 +247,7 @@ p, ul {
   content: "";
   left: -14px;
   position: absolute;
-  top: 14px;
+  top: 16px;
   transform: rotate(-2deg);
 }
 @media (max-width: 900px) {
