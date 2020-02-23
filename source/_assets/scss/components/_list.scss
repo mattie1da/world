@@ -8,11 +8,20 @@
    color: var(--darkGrey);
    font-weight: 200;
    margin-bottom: rem(22);
+
+   .home--dark & {
+      color: var(--grey);
+      transition: 1s ease;
+   }
 }
 
 .list__item {
    margin-bottom: rem(15);
    position: relative;
+
+   @media #{$tablet} {
+      padding-left: rem(20);
+   }
 
    &:before {
       @include size(6px);
@@ -23,5 +32,10 @@
       position: absolute;
       top: 14px;
       transform: rotate(-2deg);
+
+      @media #{$tablet} {
+         left: 0;
+         top: 10px;
+      }
    }
 }

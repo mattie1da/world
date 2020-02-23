@@ -9,25 +9,27 @@
    @include size(18px);
    border-radius: 50%;
    display: block;
+   opacity: 0.75;
 
    &--yellow {
       background: var(--yellow);
+   }
+
+   &--cyan {
+      background: var(--cyan);
    }
 
    &--mint {
       background: var(--mint);
    }
 
-   &--pink {
-      background: var(--pink);
-   }
-
-   &--red {
-      background: var(--red);
+   &--purple {
+      background: var(--purple);
    }
 
    &.active {
       border: 1px solid var(--darkGrey);
+      opacity: 1;
 
       .home--dark & {
          border: 1px solid var(--white);

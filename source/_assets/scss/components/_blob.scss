@@ -1,6 +1,5 @@
 .blob {
    position: absolute;
-   z-index: map_get($z-index, blob);
 
    path {
       fill: var(--theme);
@@ -11,11 +10,19 @@
       left: 50%;
       top: -50px;
       transform: translateX(-50%) translateY(-60%);
+
+      @media #{$tablet} {
+         transform: translateX(-50%) translateY(-70%);
+      }
    }
 
    &--bottom {
       bottom: 0;
       right: 0;
       transform: scale(1.5) translateY(30%);
+
+      @media #{$tablet} {
+         transform: translateY(200px);
+      }
    }
 }

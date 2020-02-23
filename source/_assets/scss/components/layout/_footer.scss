@@ -4,5 +4,16 @@
    font-size: 14px;
    justify-content: flex-end;
    margin-top: rem(130);
+   mix-blend-mode: difference;
    padding-bottom: rem(65);
+   position: relative;
+   z-index: map_get($z-index, footer);
+
+   @media #{$tablet} {
+      align-items: flex-start;
+      flex-direction: column-reverse;
+      margin-top: rem(100);
+      mix-blend-mode: normal;
+      padding-bottom: rem(30);
+   }
 }

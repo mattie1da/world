@@ -21,6 +21,10 @@ body {
 	text-rendering: optimizeSpeed;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+
+	@media #{$tablet} {
+		font-size: $tabletFontSize;
+	}
 }
 
 a {
@@ -52,9 +56,19 @@ h2 {
 	font-size: rem(24);
 	line-height: 1.04;
 	margin-bottom: rem(22);
+
+	@media #{$tablet} {
+		font-size: rem(18);
+	}
 }
 
 p, ul {
 	line-height: 1.33;
 	letter-spacing: -0.5px;
+
+	br {
+		@media #{$tablet} {
+			display: none;
+		}
+	}
 }

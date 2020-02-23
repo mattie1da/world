@@ -10753,8 +10753,8 @@ $('.mode').click(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/mattwyatt/Sites/vhosts/world/source/_assets/js/main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! /Users/mattwyatt/Sites/vhosts/world/source/_assets/scss/main.scss */"./source/_assets/scss/main.scss");
+__webpack_require__(/*! /Users/mattwyatt/Sites/personal/world/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /Users/mattwyatt/Sites/personal/world/source/_assets/scss/main.scss */"./source/_assets/scss/main.scss");
 
 
 /***/ })

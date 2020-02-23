@@ -2,4 +2,9 @@
    margin: 0 auto;
    max-width: 540px;
    padding-top: 12vw;
+
+   @media #{$tablet} {
+      max-width: none;
+      padding: 15vh 8vw 0 8vw;
+   }
 }

@@ -81,9 +81,9 @@
         <aside class="palette">
             <div class="themes">
                 <a href="javascript:void(0);" data-id="yellow" class="theme theme--yellow active"></a>
-                <a href="javascript:void(0);" data-id="pink" class="theme theme--pink"></a>
-                <a href="javascript:void(0);" data-id="red" class="theme theme--red"></a>
                 <a href="javascript:void(0);" data-id="mint" class="theme theme--mint"></a>
+                <a href="javascript:void(0);" data-id="purple" class="theme theme--purple"></a>
+                <a href="javascript:void(0);" data-id="cyan" class="theme theme--cyan"></a>
 
                 <a href="javascript:void(0);" data-id="dark" class="mode mode--dark"></a>
                 <a href="javascript:void(0);" data-id="light" class="mode mode--light"></a>

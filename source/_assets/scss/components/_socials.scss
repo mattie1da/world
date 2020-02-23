@@ -1,3 +1,7 @@
 .socials {
    margin-left: rem(45);
+
+   @media #{$tablet} {
+      margin: 0 0 rem(10) 0;
+   }
 }

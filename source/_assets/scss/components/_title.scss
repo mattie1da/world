@@ -2,9 +2,12 @@
    font-style: italic;
    letter-spacing: -7px;
    margin-bottom: rem(45);
-
    // i'm really this anal
    text-indent: -3px;
+
+   @media #{$tablet} {
+      margin-bottom: rem(15);
+   }
 }
 
 .title__icon {

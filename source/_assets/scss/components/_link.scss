@@ -1,5 +1,5 @@
 .link {
-   border-bottom: 1px dashed $navy;
+   border-bottom: 1px dashed var(--navy);
    font-weight: bold;
    padding-bottom: 3px;
 
@@ -8,9 +8,20 @@
       font-weight: 200;
    }
 
+   .home--dark & {
+      border-bottom: 1px dashed var(--purple);
+   }
+
    .socials & {
       border-bottom: none;
       margin-left: rem(6);
       padding: 0;
+
+      &:first-child {
+         @media #{$tablet} {
+            margin-left: 0;
+         }
+      }
+
    }
 }

@@ -7,23 +7,15 @@
   --navy: #025795;
   --white: #FFFFFF;
 
-  --pink: #f7abf9;
-  --red: #FFB9B9;
-  --mint: #B9FFE1;
   --yellow: #FFF07C;
+  --cyan: #7CE6FF;
+  --mint: #B9FFE1;
+  --purple: #f7abf9;
 
   --theme: var(--yellow);
 
   --theme-transition: all 0.5s ease-in-out;
 }
-
-// colours
-$black: #323232;
-$darkGrey: #535353;
-$navy: #025795;
-$grey: #EBEBEB;
-$white: #FFFFFF;
-
 
 // fonts
 $fontHelvetica: "Helvetica", Arial, sans-serif;
@@ -37,10 +29,9 @@ $baseFontColor: var(--black);
 $baseFontWeight: 200;
 
 $baseFontSize: 23px;
-$desktopFontSize: 16px;
-$tabletFontSize: 15px;
-$phoneFontSize: 14px;
+$tabletFontSize: 17px;
 
+$tablet: "(max-width: 900px)";
 
 // misc
 $browserContext: 15;
@@ -48,6 +39,6 @@ $browserContext: 15;
 
 // z-index map
 $z-index: (
+   footer: 10,
    highlight: -1,
-   blob: -1,
 )

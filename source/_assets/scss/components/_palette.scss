@@ -2,4 +2,8 @@
   left: 15%;
   position: fixed;
   top: 40%;
+
+  @media #{$tablet} {
+    display: none;
+  }
 }

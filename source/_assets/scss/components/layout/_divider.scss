@@ -4,7 +4,15 @@
    background-size: contain;
    margin: rem(25) 0;
 
+   @media #{$tablet} {
+      margin: rem(5) 0 rem(25) 0;
+   }
+
    &--thin {
       width: 25%;
+
+      @media #{$tablet} {
+         margin: 0;
+      }
    }
 }

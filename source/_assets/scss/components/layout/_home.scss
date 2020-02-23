@@ -4,9 +4,10 @@
    mix-blend-mode: difference;
 
    &--dark {
-      background: url('/images/dark.png') right center no-repeat;
+      background: url('/images/dark-side.jpg') right -2px center no-repeat;
       background-size: cover;
       color: var(--white);
+      transition: 1s ease;
    }
 
    &--light {
@@ -14,23 +15,19 @@
       color: var(--black);
    }
 
-   &--mint {
-      --theme: var(--mint);
-   }
-
    &--yellow {
       --theme: var(--yellow);
    }
 
-   &--lime {
-      --theme: var(--lime);
+   &--cyan {
+      --theme: var(--cyan);
    }
 
-   &--pink {
-      --theme: var(--pink);
+   &--mint {
+      --theme: var(--mint);
    }
 
-   &--red {
-      --theme: var(--red);
+   &--purple {
+      --theme: var(--purple);
    }
 }
