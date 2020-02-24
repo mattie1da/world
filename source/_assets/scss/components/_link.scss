@@ -1,7 +1,13 @@
 .link {
+   animation: var(--animation);
    border-bottom: 1px dashed var(--navy);
    font-weight: bold;
+   opacity: 0;
    padding-bottom: 3px;
+
+   @media #{$tablet} {
+      padding-bottom: 2px;
+   }
 
    &--code {
       font-family: $fontSecondary;
@@ -15,7 +21,10 @@
    .socials & {
       border-bottom: none;
       margin-left: rem(6);
-      padding: 0;
+
+      &:hover {
+         border-bottom: 4px solid var(--theme);
+      }
 
       &:first-child {
          @media #{$tablet} {

@@ -1,9 +1,18 @@
 .palette {
-  left: 15%;
+  animation: var(--animation-delayed);
+  left: 50%;
   position: fixed;
   top: 40%;
+  opacity: 0;
+  transform: translateX(-420px);
 
   @media #{$tablet} {
-    display: none;
+    bottom: 40px;
+    right: var(--gutter);
+    left: auto;
+    position: absolute;
+    top: auto;
+    transform: none;
+    z-index: map_get($z-index, footer);
   }
 }

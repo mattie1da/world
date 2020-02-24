@@ -10725,11 +10725,16 @@ $('.theme').click(function () {
 $('.mode').click(function () {
   $home = $(this).parents('.home');
   $theme = $(this).attr("data-id");
+  $('.mode').removeClass('active');
 
   if ($(this).hasClass('mode--light')) {
     $home.removeClass('home--dark');
   } else {
     $home.addClass('home--' + $theme + '');
+  }
+
+  if (!$(this).hasClass('active')) {
+    $(this).addClass('active');
   }
 });
 

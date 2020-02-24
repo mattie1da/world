@@ -64,16 +64,17 @@
             >
 
             <p>
-                <span class="highlight">let's chat,</span> send me an <a href="mailto:hello@mattie.world" title="or hate mail lol" class="link" target="_blank">email.</a>
+                <span class="highlight">let's chat,</span> send me an <a href="mailto:hello@mattie.world" class="link" target="_blank">email.</a>
             </p>
 
             <footer class="footer">
                 <a href="https://github.com/mattie1da/world" class="link link--code" target="_blank">view the source code</a>
 
                 <div class="socials">
-                    <a href="https://twitter.com/mattie1da" class="link" target="_blank">twitter</a>
-                    <a href="https://instagram.com/mattie1da" class="link" target="_blank">instagram</a>
-                    <a href="https://github.com/mattie1da" class="link" target="_blank">github</a>
+                    <a href="https://twitter.com/mattie1da" title="tweets by me that are mostly retweets of memes or animal crossing news" class="link" target="_blank">twitter</a>
+                    <a href="https://instagram.com/mattie1da" title="just skate edits not going to lie" class="link" target="_blank">instagram</a>
+                    <a href="https://flickr.com/koolbean1996" title="where i post my film photos" class="link" target="_blank">flickr</a>
+                    <a href="https://github.com/mattie1da" title="where the <strike>magic</strike> embarrassment happens" class="link" target="_blank">github</a>
                 </div>
             </footer>
         </div>
@@ -86,7 +87,7 @@
                 <a href="javascript:void(0);" data-id="cyan" class="theme theme--cyan"></a>
 
                 <a href="javascript:void(0);" data-id="dark" class="mode mode--dark"></a>
-                <a href="javascript:void(0);" data-id="light" class="mode mode--light"></a>
+                <a href="javascript:void(0);" data-id="light" class="mode mode--light active"></a>
             </div>
         </aside>
 

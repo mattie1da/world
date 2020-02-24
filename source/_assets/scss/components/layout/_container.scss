@@ -5,6 +5,6 @@
 
    @media #{$tablet} {
       max-width: none;
-      padding: 15vh 8vw 0 8vw;
+      padding: 15vh var(--gutter) 0 var(--gutter);
    }
 }

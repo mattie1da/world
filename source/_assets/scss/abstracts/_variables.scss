@@ -13,8 +13,12 @@
   --purple: #f7abf9;
 
   --theme: var(--yellow);
-
   --theme-transition: all 0.5s ease-in-out;
+
+  --animation: 1s fadeIn 0.5s forwards;
+  --animation-delayed: 1s fadeIn 1s forwards;
+
+  --gutter: 8vw;
 }
 
 // fonts
@@ -40,5 +44,6 @@ $browserContext: 15;
 // z-index map
 $z-index: (
    footer: 10,
+   highlight-text: 10,
    highlight: -1,
 )

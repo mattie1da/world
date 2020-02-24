@@ -1,13 +1,17 @@
 .home {
+   animation: fadeIn 1s forwards;
    position: relative;
    overflow: hidden;
-   mix-blend-mode: difference;
 
    &--dark {
       background: url('/images/dark-side.jpg') right -2px center no-repeat;
       background-size: cover;
       color: var(--white);
       transition: 1s ease;
+
+      @media #{$tablet} {
+         background-position: right 25% center;
+      }
    }
 
    &--light {

@@ -2,6 +2,7 @@
   @include size(18px);
   background: center center no-repeat;
   background-size: contain;
+  position: relative;
 
   &--light {
     background-image: url('/images/icons/mode-light.svg');
@@ -9,5 +10,20 @@
 
   &--dark {
     background-image: url('/images/icons/mode-dark.svg');
+  }
+
+  &.active {
+    @media #{$tablet} {
+      &:after {
+        @include size(50%, 1px);
+        background: var(--purple);
+        bottom: -8px;
+        content: '';
+        margin: 0 auto;
+        left: 0;
+        position: absolute;
+        right: 0;
+      }
+    }
   }
 }
