@@ -59,8 +59,7 @@
             <img
                 src="/images/selfie-alert.jpg"
                 class="selfie"
-                alt="Biggest nerd on the globe captured infront of a New York City skyline"
-                title="Well would you look at that"
+                alt="Biggest dork on the globe captured infront of the New York City skyline"
             >
 
             <p>
