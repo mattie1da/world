@@ -3,8 +3,8 @@
    display: flex;
    font-size: 14px;
    justify-content: flex-end;
-   margin-top: rem(130);
-   padding-bottom: rem(65);
+   margin-top: rem(220);
+   padding-bottom: rem(40);
    position: relative;
    z-index: map_get($z-index, footer);
 
@@ -15,7 +15,7 @@
    @media #{$tablet} {
       align-items: flex-start;
       flex-direction: column-reverse;
-      margin-top: rem(150);
+      margin-top: rem(120);
       mix-blend-mode: normal;
       padding-bottom: rem(30);
    }

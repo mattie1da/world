@@ -1,16 +1,16 @@
 .palette {
   animation: var(--animation-delayed);
   left: 50%;
+  opacity: 0;
   position: fixed;
   top: 40%;
-  opacity: 0;
   transform: translateX(-420px);
 
   @media #{$tablet} {
     bottom: 40px;
-    right: var(--gutter);
     left: auto;
     position: absolute;
+    right: var(--gutter);
     top: auto;
     transform: none;
     z-index: map_get($z-index, footer);

@@ -3,10 +3,10 @@
    border-bottom: 1px dashed var(--navy);
    font-weight: bold;
    opacity: 0;
-   padding-bottom: 3px;
+   padding-bottom: rem(3);
 
    @media #{$tablet} {
-      padding-bottom: 2px;
+      padding-bottom: rem(2);
    }
 
    &--code {
@@ -23,7 +23,7 @@
       margin-left: rem(6);
 
       &:hover {
-         border-bottom: 4px solid var(--theme);
+         border-bottom: 1px dashed var(--navy);
       }
 
       &:first-child {

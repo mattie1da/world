@@ -1,6 +1,4 @@
 .blob {
-   animation: var(--animation);
-   opacity: 0;
    position: absolute;
 
    path {
@@ -9,22 +7,24 @@
    }
 
    &--top {
-      left: 50%;
-      top: -50px;
-      transform: translateX(-50%) translateY(-60%);
+      animation: bubble 10s alternate infinite;
+      left: -20px;
+      top: -275px;
 
       @media #{$tablet} {
-         transform: translateX(-50%) translateY(-70%);
+         left: -60px;
+         top: -320px;
       }
    }
 
    &--bottom {
-      bottom: 0;
-      right: 0;
-      transform: scale(1.5) translateY(30%);
+      animation: bubble 10s alternate infinite;
+      bottom: -175px;
+      right: -110px;
 
       @media #{$tablet} {
-         transform: translateY(175px);
+         bottom: -200px;
+         right: -65px;
       }
    }
 }

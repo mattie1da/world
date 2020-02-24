@@ -4,7 +4,7 @@
    z-index: map_get($z-index, highlight-text);
 
    &:before {
-      animation: var(--animation);
+      animation: var(--animation-delayed);
       background: var(--theme);
       border-radius: 2px;
       bottom: -4px;
