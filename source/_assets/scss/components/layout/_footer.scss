@@ -6,17 +6,24 @@
    margin-top: rem(220);
    padding-bottom: rem(40);
    position: relative;
+   transition: var(--theme-transition);
    z-index: map_get($z-index, footer);
 
-   .home--dark & {
-      mix-blend-mode: difference;
-   }
-
    @media #{$tablet} {
-      align-items: flex-start;
-      flex-direction: column-reverse;
-      margin-top: rem(120);
+      align-items: flex-end;
+      flex-direction: column;
+      margin: rem(120) rem(80) 0 0;
       mix-blend-mode: normal;
       padding-bottom: rem(30);
+   }
+
+   .home--dark & {
+      color: var(--black);
+   }
+
+   .home--blue &,
+   .home--purple &,
+   .home--fushcia & {
+      color: var(--white);
    }
 }

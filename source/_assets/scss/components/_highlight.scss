@@ -1,4 +1,5 @@
 .highlight {
+   cursor: help;
    position: relative;
    transition: var(--theme-transition);
    z-index: map_get($z-index, highlight-text);
@@ -21,5 +22,11 @@
 
    .home--dark & {
       color: var(--black);
+   }
+
+   .home--blue &,
+   .home--purple &,
+   .home--fushcia & {
+      color: var(--white);
    }
 }

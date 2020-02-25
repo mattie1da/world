@@ -26,6 +26,10 @@
          border-bottom: 1px dashed var(--navy);
       }
 
+      @media #{$tablet} {
+         margin-left: rem(3);
+      }
+
       &:first-child {
          @media #{$tablet} {
             margin-left: 0;

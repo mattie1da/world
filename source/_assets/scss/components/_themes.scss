@@ -13,7 +13,7 @@
    @include size(18px);
    border-radius: 50%;
    display: block;
-   opacity: 0.75;
+   opacity: 0.5;
 
    @media #{$tablet} {
       display: none;
@@ -37,6 +37,14 @@
 
    &--purple {
       background: var(--purple);
+   }
+
+   &--fushcia {
+      background: var(--fushcia);
+   }
+
+   &--blue {
+      background: var(--blue);
    }
 
    &.active {

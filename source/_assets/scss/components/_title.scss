@@ -13,8 +13,7 @@
 
 .title__icon {
    animation: var(--animation);
+   cursor: grab;
    display: inline-block;
-   font-style: normal;
    opacity: 0;
-   transform: scaleX(-1);
 }

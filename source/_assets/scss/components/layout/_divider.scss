@@ -1,16 +1,16 @@
 .divider {
-   animation: divider 2s forwards;
+   animation: divider 50s linear infinite;
    background: url('/images/decor/wave.svg') center center repeat-x;
    background-size: contain;
    height: 6px;
    margin: rem(25) 0;
+   width: 55%;
 
    @media #{$tablet} {
       margin: rem(5) 0 rem(25) 0;
    }
 
    &--thin {
-      animation: none;
       width: 25%;
 
       @media #{$tablet} {

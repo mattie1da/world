@@ -19,8 +19,8 @@
 
    &--bottom {
       animation: bubble 10s alternate infinite;
-      bottom: -175px;
-      right: -110px;
+      bottom: -165px;
+      right: -35px;
 
       @media #{$tablet} {
          bottom: -200px;

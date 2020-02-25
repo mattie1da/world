@@ -6,7 +6,7 @@
         <div class="container">
 
             <h1 class="title">
-                hi, <span class="title__icon">👋🏼</span>
+                hi, <img class="title__icon" src="/images/icons/ey-up.svg" title="a helping hand waving at you">
             </h1>
 
             <p>
@@ -15,7 +15,7 @@
                 my animal crossing town, i would.
             </p>
 
-            <aside class="divider"></aside>
+            <aside class="divider" aria-hidden="true"></aside>
 
             <ul class="list">
                 <h2 class="list__title">
@@ -24,12 +24,12 @@
 
                 <li class="list__item">
                     currently helping to make the web beautiful<br>
-                    and the world <i>less</i> terrible at <a href="https://studiorepublic.com" title="a lovely bunch. opens their site in new window" class="link" target="_blank">Studio Republic.</a>
+                    and the world <i>less</i> terrible at <a href="https://studiorepublic.com" title="opens their site in new window" class="link" target="_blank">Studio Republic.</a>
                 </li>
 
                 <li class="list__item">
-                    former <a href="https://sneekdigital.co.uk" title="making the teas. opens their site in new window" class="link" target="_blank">Sneek Digital</a>
-                    bandit, now hustling at <a href="https://skybase.it" title="the brotherhood. opens their site in new window" class="link" target="_blank">Skybase.</a>
+                    former <a href="https://sneekdigital.co.uk" title="opens their site in new window" class="link" target="_blank">Sneek Digital</a>
+                    bandit, now hustling at <a href="https://skybase.it" title="opens their site in new window" class="link" target="_blank">Skybase.</a>
                 </li>
             </ul>
 
@@ -54,7 +54,7 @@
                 </li>
             </ul>
 
-            <aside class="divider divider--thin"></aside>
+            <aside class="divider divider--thin" aria-hidden="true"></aside>
 
             <img
                 src="/images/selfie-alert.jpg"
@@ -63,7 +63,7 @@
             >
 
             <p>
-                <span class="highlight">let's chat,</span> send me an <a href="mailto:hello@mattie.world" class="link" target="_blank">email.</a>
+                <span title="let's chat, collab, and share animal crossing qr codes" class="highlight">let's chat,</span> send me an <a href="mailto:hello@mattie.world" class="link" target="_blank">email.</a>
             </p>
 
             <footer class="footer">
@@ -93,10 +93,12 @@
 
         <aside class="palette">
             <div class="themes">
-                <a href="javascript:void(0);" title="change theme colour to yellow" data-id="yellow" class="theme theme--yellow active"></a>
-                <a href="javascript:void(0);" title="change theme colour to mint" data-id="mint" class="theme theme--mint"></a>
                 <a href="javascript:void(0);" title="change theme colour to purple" data-id="purple" class="theme theme--purple"></a>
                 <a href="javascript:void(0);" title="change theme colour to cyan" data-id="cyan" class="theme theme--cyan"></a>
+                <a href="javascript:void(0);" title="change theme colour to mint" data-id="mint" class="theme theme--mint active"></a>
+                <a href="javascript:void(0);" title="change theme colour to fushcia" data-id="fushcia" class="theme theme--fushcia"></a>
+                <a href="javascript:void(0);" title="change theme colour to blue" data-id="blue" class="theme theme--blue"></a>
+                <a href="javascript:void(0);" title="change theme colour to yellow" data-id="yellow" class="theme theme--yellow"></a>
 
                 <a href="javascript:void(0);" title="change to dark theme" data-id="dark" class="mode mode--dark"></a>
                 <a href="javascript:void(0);" title="change back to light theme" data-id="light" class="mode mode--light active"></a>
