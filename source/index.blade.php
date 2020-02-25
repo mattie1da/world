@@ -24,12 +24,12 @@
 
                 <li class="list__item">
                     currently helping to make the web beautiful<br>
-                    and the world <i>less</i> terrible at <a href="https://studiorepublic.com" title="a lovely bunch" class="link" target="_blank">Studio Republic.</a>
+                    and the world <i>less</i> terrible at <a href="https://studiorepublic.com" title="a lovely bunch. opens their site in new window" class="link" target="_blank">Studio Republic.</a>
                 </li>
 
                 <li class="list__item">
-                    former <a href="https://sneekdigital.co.uk" title="making the teas" class="link" target="_blank">Sneek Digital</a>
-                    bandit, now hustling at <a href="https://skybase.it" title="<3" class="link" target="_blank">Skybase.</a>
+                    former <a href="https://sneekdigital.co.uk" title="making the teas. opens their site in new window" class="link" target="_blank">Sneek Digital</a>
+                    bandit, now hustling at <a href="https://skybase.it" title="the brotherhood. opens their site in new window" class="link" target="_blank">Skybase.</a>
                 </li>
             </ul>
 
@@ -70,10 +70,10 @@
                 <a href="https://github.com/mattie1da/world" class="link link--code" target="_blank">view the source code</a>
 
                 <div class="socials">
-                    <a href="https://twitter.com/mattie1da" title="tweets by me that are mostly retweets of memes or animal crossing news" class="link" target="_blank">twitter</a>
-                    <a href="https://instagram.com/mattie1da" title="just skate edits not going to lie" class="link" target="_blank">instagram</a>
-                    <a href="https://flickr.com/koolbean1996" title="where i post my film photos" class="link" target="_blank">flickr</a>
-                    <a href="https://github.com/mattie1da" title="where the <strike>magic</strike> embarrassment happens" class="link" target="_blank">github</a>
+                    <a href="https://twitter.com/mattie1da" title="mostly retweets of memes or animal crossing news. opens in new window" class="link" target="_blank">twitter</a>
+                    <a href="https://instagram.com/mattie1da" title="just skate edits not going to lie. opens in new window" class="link" target="_blank">instagram</a>
+                    <a href="https://flickr.com/koolbean1996" title="where i post my film photos. opens in new window" class="link" target="_blank">flickr</a>
+                    <a href="https://github.com/mattie1da" title="where the <strike>magic</strike> embarrassment happens. opens in new window" class="link" target="_blank">github</a>
                 </div>
             </footer>
 
@@ -98,8 +98,8 @@
                 <a href="javascript:void(0);" title="change theme colour to purple" data-id="purple" class="theme theme--purple"></a>
                 <a href="javascript:void(0);" title="change theme colour to cyan" data-id="cyan" class="theme theme--cyan"></a>
 
-                <a href="javascript:void(0);" title="turn the lights off" data-id="dark" class="mode mode--dark"></a>
-                <a href="javascript:void(0);" title="turn the lights on" data-id="light" class="mode mode--light active"></a>
+                <a href="javascript:void(0);" title="change to dark theme" data-id="dark" class="mode mode--dark"></a>
+                <a href="javascript:void(0);" title="change back to light theme" data-id="light" class="mode mode--light active"></a>
             </div>
         </aside>
     </section>
