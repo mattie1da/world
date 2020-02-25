@@ -27,3 +27,17 @@
       transform: rotate(-6deg);
    }
 }
+
+@keyframes night {
+   0% {
+      background-position: left center;
+   }
+
+   4% {
+      background-position: right 20% center;
+   }
+
+   100% {
+      background-position: right -1px center;
+   }
+}
