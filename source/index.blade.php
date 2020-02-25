@@ -93,13 +93,13 @@
 
         <aside class="palette">
             <div class="themes">
-                <a href="javascript:void(0);" data-id="yellow" class="theme theme--yellow active"></a>
-                <a href="javascript:void(0);" data-id="mint" class="theme theme--mint"></a>
-                <a href="javascript:void(0);" data-id="purple" class="theme theme--purple"></a>
-                <a href="javascript:void(0);" data-id="cyan" class="theme theme--cyan"></a>
+                <a href="javascript:void(0);" title="change theme colour to yellow" data-id="yellow" class="theme theme--yellow active"></a>
+                <a href="javascript:void(0);" title="change theme colour to mint" data-id="mint" class="theme theme--mint"></a>
+                <a href="javascript:void(0);" title="change theme colour to purple" data-id="purple" class="theme theme--purple"></a>
+                <a href="javascript:void(0);" title="change theme colour to cyan" data-id="cyan" class="theme theme--cyan"></a>
 
-                <a href="javascript:void(0);" data-id="dark" class="mode mode--dark"></a>
-                <a href="javascript:void(0);" data-id="light" class="mode mode--light active"></a>
+                <a href="javascript:void(0);" title="turn the lights off" data-id="dark" class="mode mode--dark"></a>
+                <a href="javascript:void(0);" title="turn the lights on" data-id="light" class="mode mode--light active"></a>
             </div>
         </aside>
     </section>
