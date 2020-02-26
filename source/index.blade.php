@@ -95,13 +95,13 @@
             <div class="themes">
                 <a href="javascript:void(0);" title="change theme colour to purple" data-id="purple" class="theme theme--purple"></a>
                 <a href="javascript:void(0);" title="change theme colour to cyan" data-id="cyan" class="theme theme--cyan"></a>
-                <a href="javascript:void(0);" title="change theme colour to mint" data-id="mint" class="theme theme--mint active"></a>
+                <a href="javascript:void(0);" title="change theme colour to mint" data-id="mint" class="theme theme--mint"></a>
                 <a href="javascript:void(0);" title="change theme colour to fushcia" data-id="fushcia" class="theme theme--fushcia"></a>
                 <a href="javascript:void(0);" title="change theme colour to blue" data-id="blue" class="theme theme--blue"></a>
                 <a href="javascript:void(0);" title="change theme colour to yellow" data-id="yellow" class="theme theme--yellow"></a>
 
                 <a href="javascript:void(0);" title="change to dark theme" data-id="dark" class="mode mode--dark"></a>
-                <a href="javascript:void(0);" title="change back to light theme" data-id="light" class="mode mode--light active"></a>
+                <a href="javascript:void(0);" title="change back to light theme" data-id="light" class="mode mode--light"></a>
             </div>
         </aside>
     </section>

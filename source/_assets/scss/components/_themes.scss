@@ -52,7 +52,8 @@
       opacity: 1;
 
       .home--dark & {
-         border: 1px solid var(--white);
+         border-color: var(--white);
+         transition: border-color 1s ease-in-out;
       }
    }
 }
