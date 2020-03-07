@@ -1,16 +1,16 @@
 .home {
-   animation: fadeIn 1s forwards;
    overflow: hidden;
    position: relative;
 
    &--dark {
-      animation: night 40s forwards;
+      animation: night 30s linear forwards;
       background: url('/images/backgrounds/dark-side.jpg') right -2px center no-repeat;
       background-size: cover;
       color: var(--white);
       transition: 1s ease;
 
       @media #{$tablet} {
+         animation: none;
          background-position: right 25% center;
       }
    }
