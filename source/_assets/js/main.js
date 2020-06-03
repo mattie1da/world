@@ -11,7 +11,6 @@ $('.theme').click(function() {
         home.attr('class', 'home home--dark');
         home.toggleClass('home--' + $(this).attr(colour) + '');
         localStorage.setItem('colour', '' + $(this).attr(colour) + '');
-
     } else {
         home.attr('class', 'home');
         home.addClass('home--' + $(this).attr(colour) + '');
@@ -43,10 +42,16 @@ $(document).ready(function() {
         $('.theme--' + localStorage.getItem('colour') + '').click();
         $('.mode--dark').click();
 
+        // Turn off animation + transition when already selected dark mode
+        home.css("-webkit-animation", "none");
+        home.css("-moz-animation", "none");
+        home.css("-ms-animation", "none");
+        home.css("animation", "none");
+        home.css("transition", "none");
+
     } else {
         home.addClass('home home--' + localStorage.getItem('colour') + '');
         $('.theme--' + localStorage.getItem('colour') + '').click();
         $('.mode--light').click();
     }
-
 });

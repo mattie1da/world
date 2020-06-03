@@ -6,7 +6,7 @@
         <div class="container">
 
             <h1 class="title">
-                hi, <img class="title__icon" src="/images/icons/ey-up.svg" title="a helping hand waving at you">
+                hi, <img class="title__icon" src="/images/icons/ey-up.svg" title="high five">
             </h1>
 
             <p>
@@ -23,13 +23,20 @@
                 </h2>
 
                 <li class="list__item">
-                    currently helping to make the web beautiful<br>
-                    and the world <i>less</i> terrible at <a href="https://studiorepublic.com" title="opens their site in new window" class="link" target="_blank">Studio Republic.</a>
+                    currently helping thousands of people <br>
+                    find new opportunities at <a href="https://cv-library.co.uk" title="opens their site in new window" class="link" target="_blank">CV Library.</a>
                 </li>
 
                 <li class="list__item">
-                    former <a href="https://sneekdigital.co.uk" title="opens their site in new window" class="link" target="_blank">Sneek Digital</a>
-                    bandit, now hustling at <a href="https://skybase.it" title="opens their site in new window" class="link" target="_blank">Skybase.</a>
+                    keeping it real @ <a href="https://skybase.it" title="opens their site in new window" class="link" target="_blank">Skybase.</a>
+                </li>
+
+                <li class="list__item">
+                    agency experience @ <a href="https://studiorepublic.com" title="opens their site in new window" class="link" target="_blank">Studio Republic.</a>
+                </li>
+
+                <li class="list__item">
+                    former <span title="rest in peace we miss you" class="link link--disabled" target="_blank">Sneek Digital</span> annoyance.
                 </li>
             </ul>
 
