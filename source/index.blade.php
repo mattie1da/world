@@ -19,11 +19,11 @@
 
             <ul class="list">
                 <h2 class="list__title">
-                    front end developer:
+                    front end dev:
                 </h2>
 
                 <li class="list__item">
-                    currently helping thousands of people <br>
+                    currently helping millions of people <br>
                     find new opportunities at <a href="https://cv-library.co.uk" title="opens their site in new window" class="link" target="_blank">CV Library.</a>
                 </li>
 
@@ -64,13 +64,33 @@
             <aside class="divider divider--thin" aria-hidden="true"></aside>
 
             <img
-                src="/images/selfie-alert.jpg"
+                src="/images/one-doombar-please-barkeep.jpg"
                 class="selfie"
                 alt="Biggest dork on the globe captured infront of the New York City skyline"
             >
 
+            <aside class="divider divider--thin u-mobile-only" aria-hidden="true"></aside>
+
+            <ul class="list">
+                <h2 class="list__title list__title--small">
+                    side projects:
+                </h2>
+
+                <li class="list__item">
+                    <a href="https://shortenurl.io" title="opens the site in new window" class="link" target="_blank">shorten url</a>; simples
+                </li>
+
+                <li class="list__item">
+                    <a href="https://app.skybase.it/get-started" title="opens the site in new window" class="link" target="_blank">skybase</a>; project / client comms & management
+                </li>
+
+                <li class="list__item u-desktop-only">
+                    ngl i mainly made this bit so i keep doing them
+                </li>
+            </ul>
+
             <p>
-                <span title="let's chat, collab, and share animal crossing qr codes" class="highlight">let's chat,</span> send me an <a href="mailto:hello@mattie.world" class="link" target="_blank">email.</a>
+                <span title="or just share animal crossing qr codes" class="highlight">let's chat,</span> send me an <a href="mailto:hello@mattie.world" class="link" target="_blank">email</a>.
             </p>
 
             <footer class="footer">
