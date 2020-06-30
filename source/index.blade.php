@@ -66,7 +66,7 @@
             <img
                 src="/images/one-doombar-please-barkeep.jpg"
                 class="selfie"
-                alt="Biggest dork on the globe captured infront of the New York City skyline"
+                alt="Big dork enjoying a doombar"
             >
 
             <aside class="divider divider--thin u-mobile-only" aria-hidden="true"></aside>
