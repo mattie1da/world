@@ -77,7 +77,11 @@
                 </h2>
 
                 <li class="list__item">
-                    <a href="https://shortenurl.io" title="opens the site in new window" class="link" target="_blank">shorten url</a>; simples
+                    <a href="https://shortenurl.io" title="opens the site in new window" class="link" target="_blank">shorten url</a>; vue, api
+                </li>
+
+                <li class="list__item">
+                    <a href="https://todooo.today" title="opens the site in new window" class="link" target="_blank">todo today</a>; task list, vue, local storage
                 </li>
 
                 <li class="list__item">
