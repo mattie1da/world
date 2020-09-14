@@ -64,9 +64,9 @@
             <aside class="divider divider--thin" aria-hidden="true"></aside>
 
             <img
-                src="/images/one-doombar-please-barkeep.jpg"
+                src="/images/moi.png"
                 class="selfie"
-                alt="Big dork enjoying a doombar"
+                alt="Me before I got rid of my hair due to overheating"
             >
 
             <aside class="divider divider--thin u-mobile-only" aria-hidden="true"></aside>
@@ -98,7 +98,7 @@
             </p>
 
             <footer class="footer">
-                <a href="https://github.com/mattie1da/world" class="link link--code" target="_blank">view the source code</a>
+                <a href="https://github.com/mattie1da/world" class="link link--code" target="_blank">view the sauce code</a>
 
                 <div class="socials">
                     <a href="https://twitter.com/mattie1da" title="mostly retweets of memes or animal crossing news. opens in new window" class="link" target="_blank">twitter</a>
