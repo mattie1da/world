@@ -11,19 +11,13 @@
 
    @media #{$tablet} {
       align-items: flex-end;
-      flex-direction: column;
       margin: rem(120) rem(80) 0 0;
-      mix-blend-mode: normal;
       padding-bottom: rem(30);
-   }
-
-   .home--dark & {
-      color: var(--black);
    }
 
    .home--blue &,
    .home--purple &,
-   .home--fushcia & {
-      color: var(--white);
+   .home--fuchsia & {
+      color: var(--black);
    }
 }

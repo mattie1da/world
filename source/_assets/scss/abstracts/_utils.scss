@@ -1,15 +1,38 @@
-.u-mobile-only {
-  display: none;
+.l-gutter {
+  padding-left:  1em;
+  padding-right: 1em;
 
   @media #{$tablet} {
-    display: block;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  @media #{$laptop} {
+    padding-left: 8em;
+    padding-right: 0;
   }
 }
 
-.u-desktop-only {
-  display: block;
+.l-gutter-top {
+  padding-top: 10em;
 
   @media #{$tablet} {
-    display: none;
+    padding-top: 6em;
+  }
+}
+
+.code {
+  font-family: $fontSecondary;
+}
+
+.u-article-code-pr {
+  padding-right: 6vw;
+}
+
+.u-desktop-only {
+  display: none !important;
+
+  @media #{$tablet} {
+    display: block !important;
   }
 }

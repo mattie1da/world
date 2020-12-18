@@ -1,0 +1,30 @@
+.video {
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px -5px rgba(black, 0.25);
+  height: 69vw;
+  width:  100%;
+  margin-bottom: 0.5vw;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+
+  @media #{$small} {
+    height: 25rem;
+  }
+
+  @media #{$tablet} {
+    height: 35vw;
+  }
+
+  @media #{$laptop} {
+    height: 25vw;
+  }
+
+  &--left {
+    object-position: left;
+  }
+
+  &--border {
+    border: 2px solid var(--theme);
+  }
+}

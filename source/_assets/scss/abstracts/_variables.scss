@@ -2,7 +2,6 @@
 
 :root {
   --black: #323232;
-  --darkGrey: #535353;
   --grey : #EBEBEB;
   --navy: #025795;
   --white: #FFFFFF;
@@ -12,7 +11,7 @@
   --cyan: #a5e7ff;
   --blue: #0082ff;
   --purple: #8b00ff;
-  --fushcia: #ff4482;
+  --fuchsia: #ff4482;
 
   --theme: var(--mint);
   --theme-transition: all 0.5s ease-in-out;
@@ -34,10 +33,14 @@ $baseFontFamily: $fontPrimary;
 $baseFontColor: var(--black);
 $baseFontWeight: 200;
 
-$baseFontSize: 23px;
-$tabletFontSize: 17px;
+$radius: 0.1em;
 
-$tablet: "(max-width: 900px)";
+$baseFontSize: 14px;
+//$tabletFontSize: 17px;
+
+$laptop: "(min-width: 1500px)";
+$tablet: "(min-width: 70em)";
+$small: "(min-width: 450px)";
 
 // misc
 $browserContext: 15;
@@ -45,6 +48,8 @@ $browserContext: 15;
 
 // z-index map
 $z-index: (
+   help-box: 30,
+   help: 20,
    footer: 10,
    highlight-text: 10,
    highlight: -1,

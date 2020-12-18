@@ -8,12 +8,33 @@
 
    &--top {
       animation: bubble 10s alternate infinite;
-      left: -20px;
-      top: -275px;
+      top: -17em;
+      left: -6em;
 
       @media #{$tablet} {
-         left: -60px;
-         top: -320px;
+         top: -260px;
+         left: -240px;
+         width: 43vw;
+      }
+   }
+
+   &--center {
+      top: 3em;
+      right: -20em;
+      transform: rotate(-1deg);
+      max-width: 30em;
+      z-index: -1;
+
+      @media #{$tablet} {
+         top: -1em;
+         right: -26em;
+         max-width: 50em;
+      }
+
+      @media #{$laptop} {
+         top: -15em;
+         right: -40em;
+         max-width: 60em;
       }
    }
 
@@ -23,8 +44,9 @@
       right: -35px;
 
       @media #{$tablet} {
-         bottom: -200px;
-         right: -65px;
+        bottom: -200px;
+        left: -65px;
+        width: 25vw;
       }
    }
 }
