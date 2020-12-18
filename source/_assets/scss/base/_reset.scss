@@ -12,7 +12,6 @@ body {
 	border: 0;
 	color: $baseFontColor;
 	font-family: $baseFontFamily;
-	font-size: $baseFontSize;
 	font-weight: $baseFontWeight;
 	line-height: 1.5;
 	margin: 0;
@@ -23,7 +22,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 
 	@media #{$tablet} {
-		font-size: $tabletFontSize;
+		font-size: 1.7vw;
 	}
 }
 
@@ -42,23 +41,21 @@ input, button, textarea, select {
 }
 
 h1, h2 {
+	letter-spacing: -.5px;
 	margin: 0;
 }
 
 h1 {
 	font-family: $fontPrimary;
-	font-size: rem(100);
-	line-height: 1.14;
+	font-size: 1.4em;
+	line-height: 1.2;
 }
 
 h2 {
-	font-size: rem(24);
+	color: inherit;
+	font-size: 1.5em;
 	line-height: 1.04;
-	margin-bottom: rem(22);
-
-	@media #{$tablet} {
-		font-size: rem(18);
-	}
+	margin-bottom: 0.5em;
 }
 
 p, ul {
@@ -69,4 +66,8 @@ p, ul {
 			display: none;
 		}
 	}
+}
+
+figure {
+	margin: 0;
 }

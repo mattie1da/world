@@ -1,11 +1,11 @@
 .container {
-   margin: 0 auto;
-   max-width: 540px;
-   padding-top: 12vw;
    position: relative;
 
    @media #{$tablet} {
-      max-width: none;
-      padding: 15vh var(--gutter) 0 var(--gutter);
+      max-width: 82.5vw;
    }
+
+    @media #{$laptop} {
+      max-width: 70vw;
+    }
 }

@@ -1,20 +1,26 @@
 .divider {
-   animation: divider 50s linear infinite;
+   animation: divider 40s linear infinite;
    background: url('/images/decor/wave.svg') center center repeat-x;
    background-size: contain;
-   height: 6px;
-   margin: rem(25) 0;
-   width: 55%;
+   margin-bottom: 1em;
+   height: 0.5em;
+   width: 75%;
 
    @media #{$tablet} {
-      margin: rem(5) 0 rem(25) 0;
+      height: 1.2em;
+
+      .article & {
+         height: 0.4em;
+      }
    }
 
-   &--thin {
-      width: 25%;
+   .header & {
+      height: 100%;
+      width: 100%;
+      grid-column: 7 / -1;
 
       @media #{$tablet} {
-         width: 60%;
+         grid-column: 9 / -1;
       }
    }
 }

@@ -1,29 +1,24 @@
 .list {
    list-style: none;
-   margin-bottom: rem(45);
+   margin-top:    0;
+   margin-bottom: 1em;
    padding-left: 0;
-
-   @media #{$tablet} {
-      margin-bottom: rem(30);
-   }
 }
 
 .list__title {
-   color: var(--darkGrey);
-   font-family: $fontSecondary;
-   font-weight: 200;
    margin-bottom: rem(22);
-
-   .home--dark & {
-      color: var(--grey);
-      transition: 1s ease;
-   }
 }
 
 .list__item {
-   margin-bottom: rem(15);
-   padding-left: 1.5rem;
+   margin-bottom: 0.25em;
+   padding-left: 1.4em;
    position: relative;
+
+   &:hover {
+      &:before {
+         background-color: var(--purple);
+      }
+   }
 
    &:last-child {
       margin-bottom: 0;
@@ -31,11 +26,10 @@
 
    @media #{$tablet} {
       line-height: 1.6;
-      padding-left: rem(20);
    }
 
    &:before {
-      @include size(6px);
+      @include size(0.5em);
       animation: var(--animation);
       background: var(--theme);
       border-radius: 2px;
@@ -43,13 +37,8 @@
       left: 0;
       opacity: 0;
       position: absolute;
-      top: 16px;
+      top: 0.6em;
       transform: rotate(-2deg);
       transition: var(--theme-transition);
-
-      @media #{$tablet} {
-         left: 0;
-         top: 11px;
-      }
    }
 }

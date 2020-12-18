@@ -1,19 +1,13 @@
 .title {
-   font-style: italic;
-   letter-spacing: -7px;
-   margin-bottom: rem(45);
-
-   // i'm really this anal
-   text-indent: -3px;
-
-   @media #{$tablet} {
-      margin-bottom: rem(15);
-   }
+   position: relative;
+   margin-bottom: 0.5em;
 }
 
 .title__icon {
    animation: var(--animation);
-   cursor: grab;
-   display: inline-block;
+   max-width: 3em;
    opacity: 0;
+   position: absolute;
+   right: 0em;
+   top:  -1.25em;
 }

@@ -1,0 +1,22 @@
+.testimonial {
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  padding-left: 4em;
+  position: relative;
+
+  p { margin-bottom: 1em; }
+}
+
+.testimonial__quote-marks {
+  color: var(--grey);
+  font-size: 12em;
+  letter-spacing: -0.075em;
+  position: absolute;
+  top:  -0.35em;
+  left: -0.05em;
+}
+
+.testimonial__author {
+  font-weight: 600;
+  margin-bottom: 0;
+}

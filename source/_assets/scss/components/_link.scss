@@ -1,45 +1,22 @@
 .link {
    animation: var(--animation);
-   border-bottom: 1px dashed var(--navy);
-   font-weight: bold;
+   border-bottom: 1px solid var(--theme);
+   font-weight: 500;
    opacity: 0;
-   padding-bottom: rem(3);
 
-   @media #{$tablet} {
-      padding-bottom: rem(2);
+   &:hover {
+      border-bottom: 1px solid var(--purple);
    }
 
-   &--code {
-      font-family: $fontSecondary;
-      font-weight: 200;
-   }
+   .footer & {
+      margin-right: 1em;
 
-   &--disabled {
-      border-bottom: none;
-      cursor: help;
+      @media (max-width: 450px) {
+         color: var(--white);
+      }
    }
 
    .home--dark & {
       border-bottom: 1px dashed var(--purple);
-   }
-
-   .socials & {
-      border-bottom: none;
-      margin-left: rem(6);
-
-      &:hover {
-         border-bottom: 1px dashed var(--navy);
-      }
-
-      @media #{$tablet} {
-         margin-left: rem(3);
-      }
-
-      &:first-child {
-         @media #{$tablet} {
-            margin-left: 0;
-         }
-      }
-
    }
 }

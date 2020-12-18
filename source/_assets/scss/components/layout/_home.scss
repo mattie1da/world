@@ -1,18 +1,11 @@
 .home {
    overflow: hidden;
    position: relative;
+   transition: 1s ease;
 
    &--dark {
-      animation: night 30s linear forwards;
-      background: url('/images/backgrounds/dark-side.jpg') right -2px center no-repeat;
-      background-size: cover;
+      background-color: #120a23;
       color: var(--white);
-      transition: 1s ease;
-
-      @media #{$tablet} {
-         animation: none;
-         background-position: right 25% center;
-      }
    }
 
    &--yellow {
@@ -35,7 +28,7 @@
       --theme: var(--blue);
    }
 
-   &--fushcia {
-      --theme: var(--fushcia);
+   &--fuchsia {
+      --theme: var(--fuchsia);
    }
 }
