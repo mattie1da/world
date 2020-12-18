@@ -8,6 +8,10 @@
   position: relative;
   z-index: 1;
 
+  .article--alt & {
+    object-position: left;
+  }
+
   @media #{$small} {
     height: 25rem;
   }
@@ -18,10 +22,6 @@
 
   @media #{$laptop} {
     height: 25vw;
-  }
-
-  &--left {
-    object-position: left;
   }
 
   &--border {
